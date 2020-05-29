@@ -1,0 +1,1 @@
+const LOADING = 'LOADING'
