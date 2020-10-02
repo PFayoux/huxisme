@@ -10,7 +10,7 @@
     "start": "webpack-dev-server --open",
     "build": "webpack --mode=production",
     "lint": "eslint -c .eslintrc.js ./src",
-    "lint-fix": "eslint -c .eslintrc.js ./src --fix" 
+    "lint-fix": "eslint -c .eslintrc.js ./src --fix"
   },
   "repository": {
     "type": "git",
@@ -32,10 +32,12 @@
     "babel-jest": "^26.0.1",
     "babel-preset-es2020": "^1.0.2",
     "babel-register": "^6.26.0",
+    "css-loader": "^3.5.3",
     "enzyme": "^3.11.0",
     "eslint": "^7.1.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-config-standard-react": "^9.2.0",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
@@ -46,6 +48,7 @@
     "jsxobj": "^1.1.0",
     "prop-types": "^15.7.2",
     "redux-devtools-extension": "^2.13.8",
+    "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
@@ -63,6 +66,7 @@
     "react-router-dom": "^5.2.0",
     "react-router-redux": "^4.0.8",
     "redux": "^4.0.5",
+    "redux-i18n": "^1.5.19",
     "redux-immutable": "^4.0.0",
     "redux-saga": "^1.1.3"
   },

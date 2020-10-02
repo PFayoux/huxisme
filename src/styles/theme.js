@@ -5,7 +5,7 @@ export default function theme (type) {
     {
       palette: {
         common: {
-          black: '#000', white: '#fff'
+          black: '#00A', white: '#ffA'
         },
         background: {
           paper: 'rgba(217, 235, 254, 0.86)',

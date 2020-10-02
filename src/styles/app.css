@@ -2,6 +2,13 @@
   flex-grow: 1;
 }
 
-.title {
-  flex-grow: 1;
+.toolbar {
+  display: flex;
+}
+
+.toolbar-button {
+}
+
+.empty-space {
+  flex: auto;
 }
